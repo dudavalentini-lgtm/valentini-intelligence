@@ -1,0 +1,19 @@
+{
+  "name": "valentini-seguros-vps-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/parser.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "googleapis": "^144.0.0",
+    "p-limit": "^6.2.0",
+    "unpdf": "^0.12.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
